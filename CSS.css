@@ -1,0 +1,51 @@
+/* External CSS file for styling the web application */
+
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e8f0fe; /* Changed background color */
+    color: #222; /* Changed text color */
+}
+
+/* Header styles */
+header {
+    background-color: #007BFF; /* Changed header background color */
+    color: #fff; /* Kept white text color */
+    padding: 1rem 0;
+    text-align: center;
+}
+
+/* Navigation styles */
+nav {
+    background-color: #0056b3; /* Changed navigation background color */
+    overflow: hidden;
+}
+
+nav a {
+    color: #f8f9fa; /* Changed link text color */
+    text-decoration: none;
+    padding: 14px 20px;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: #004085; /* Changed hover background color */
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #0056b3; /* Changed footer background color */
+    color: #f8f9fa; /* Changed footer text color */
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

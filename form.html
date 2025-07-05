@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Document</title>
+    <style>
+        body {
+            background-color: #f0f3ee;
+            font-family: Arial, sans-serif;
+        }
+
+        section {
+            width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            margin-top: 200px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        form p {
+            margin-bottom: 15px;
+        }
+
+        form input[type="text"],
+        form input[type="email"],
+        form textarea {
+            width: 100%;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        form input[type="submit"] {
+            background-color: #00cc99;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <form action="">   
+            <p>
+                <lable>Name</lable>
+                <input type="text" required>
+            </p>
+            <p>
+                <lable>Email</lable>
+                <input type="email" required>
+            </p>
+            <p>
+                <lable>Message</lable>
+                <textarea name="message" id="msg" required></textarea>
+            </p>
+            <p>
+                <input type="submit">
+            </p>
+        </form>
+    </section>
+
+</body>
+
+</html>
