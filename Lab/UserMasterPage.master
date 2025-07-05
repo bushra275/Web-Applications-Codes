@@ -1,0 +1,39 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="UserMasterPage.master.cs" Inherits="LibraryManagementSystem.Users.UserMasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+       <%-- css,js,jquery--%>
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+                        <%--//header
+             //nav bar--%>
+
+            <div style="background-color:brown;height:60px">
+                <span style="color:#fff;padding-left:30px;margin-top:30px">Library Management System</span>
+            </div>
+            <div>
+            <div style="width:200px;background-color:blueviolet;height:450px;float:left">
+                <h3>This is menu</h3>
+            </div>
+            <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+             <%--   //Dynamic Content Goes here--%>
+            </asp:ContentPlaceHolder>
+                </div>
+                </div>            
+                                <div style="background-color:brown;height:25px">
+    <h3>This is footer</h3>
+</div>
+        </div>
+               
+       <%-- //footer--%>
+    </form>
+</body>
+</html>
